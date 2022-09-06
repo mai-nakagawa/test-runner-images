@@ -2,9 +2,8 @@ name: poetry install
 on: push
 jobs:
   poetry_install:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
-      - run: sudo apt install gnome-keyring # Add the temporary solution
       - run: pip install poetry
       - run: poetry install
