@@ -7,6 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: sudo apt install gnome-keyring # Add the temporary solution
       - run: pip install poetry
       - run: poetry install
