@@ -2,7 +2,7 @@ name: poetry install
 on: push
 jobs:
   poetry_install:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
       - run: pip install poetry
