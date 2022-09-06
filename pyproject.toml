@@ -1,8 +1,8 @@
 [tool.poetry]
-name = ""
+name = "test-runner-images"
 version = "1.0.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-typing-extensions = ">=3.10.0"
+typing-extensions = "^3.10.0"
