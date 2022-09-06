@@ -1,7 +1,8 @@
-name: pip install
+name: poetry install
 on: push
 jobs:
   pip_install:
     runs-on: ubuntu-latest
     steps:
-      - run: pip install typing-extensions
+      - run: pip install poetry
+      - run: poetry install
