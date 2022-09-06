@@ -1,5 +1,7 @@
 name: poetry install
 on: push
+env:
+  PYTHON_KEYRING_BACKEND: keyring.backends.null.Keyring
 jobs:
   poetry_install:
     runs-on: ubuntu-latest
